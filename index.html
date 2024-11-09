@@ -1,39 +1,46 @@
----
-layout: default
-title: "Portfolio ของ Boriwat Wongtama"
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Boriwat Wongtama</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#guestbook">Guestbook</a></li>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#uses">Uses</a></li>
+            </ul>
+        </nav>
+        <div class="intro">
+            <h1>I'm Boriwat, a full-stack web developer creating <span class="highlight">fantastic</span> websites using React.</h1>
+            <p>Thailand • UTC/GMT +7</p>
+        </div>
+    </header>
 
-<header>
-    <h1>Portfolio ของ Boriwat Wongtama</h1>
-    <p>สวัสดี! ฉันคือ Boriwat Wongtama </p>
-</header>
+    <section class="projects">
+        <h2>Selected Projects</h2>
+        <div class="project-list">
+            <div class="project-card">
+                <img src="project1.jpg" alt="Project 1">
+                <h3>Links</h3>
+                <p>All my social media links in one place</p>
+            </div>
+            <div class="project-card">
+                <img src="project2.jpg" alt="Project 2">
+                <h3>One Blog</h3>
+                <p>A simple full-stack blog</p>
+            </div>
+        </div>
+        <button class="see-all">See all projects</button>
+    </section>
 
-<nav>
-    <a href="#about">เกี่ยวกับฉัน</a>
-    <a href="#projects">ผลงาน</a>
-    <a href="#contact">ติดต่อ</a>
-</nav>
-
-<section id="about" class="container">
-    <h2>เกี่ยวกับฉัน</h2>
-    <p>ฉันคือ Boriwat Wongtama </p>
-</section>
-
-<section id="projects" class="container">
-    <h2>ผลงานของฉัน</h2>
-    <!-- ส่วนแสดงผลงาน -->
-</section>
-
-<section id="contact" class="container">
-    <h2>ติดต่อฉัน</h2>
-    <p>สามารถติดต่อฉันได้ที่:</p>
-    <ul>
-        <li>Email: 66025740@up.ac.th</li>
-        <li>LinkedIn: <a href="https://linkedin.com/in/boriwatwongtama" target="_blank">โปรไฟล์ LinkedIn ของฉัน</a></li>
-        <li>GitHub: <a href="https://github.com/boriwat-wtm" target="_blank">Boriwat-wtm</a></li>
-    </ul>
-</section>
-
-<footer>
-    <p>&copy; 2024 Boriwat Wongtama | Portfolio สร้างขึ้นด้วย GitHub Pages</p>
-</footer>
+    <script src="script.js"></script>
+</body>
+</html>

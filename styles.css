@@ -40,7 +40,7 @@ nav ul li a:hover {
 }
 
 .highlight {
-    color: #ff69b4; /* สีชมพู */
+    color: #ff69b4;
 }
 
 .projects {
@@ -90,4 +90,12 @@ nav ul li a:hover {
 
 .see-all:hover {
     background-color: #ff4081;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #aaa;
+    font-size: 0.9em;
 }
